@@ -47,9 +47,13 @@ gem 'simple_form'
 gem 'interactor', '~> 3.0'
 gem 'interactor-rails'
 
-group :development, :test do  gem 'pry-byebug'
+
+group :development, :test do
+  gem 'pry-byebug'
   gem 'pry-rails'
   gem 'dotenv-rails'
+  gem 'rspec-rails', '~> 3.6.0'
+  gem 'factory_bot_rails', '~> 4.10.0s'
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -66,8 +70,6 @@ group :development do
 end
 
 group :test do
-  gem 'rspec-rails', '~> 3.6.0'
-  gem 'factory_bot_rails', '~> 4.10.0s'
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
