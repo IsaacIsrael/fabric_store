@@ -51,6 +51,8 @@ gem 'rails_admin', '~> 2.0'
 gem 'rails_admin_import', '~> 2.1'
 gem 'cancancan'
 
+gem 'sendgrid-ruby'
+
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
