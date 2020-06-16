@@ -29,6 +29,18 @@ RailsAdmin.config do |config|
     visible false
   end
 
+  config.model 'Product' do
+    include_all_fields
+    field :price, :money
+    exclude_fields :price_cents, :price_currency
+
+    edit do
+      include_all_fields
+      field :price, :decimal
+      exclude_fields :price_cents, :price_currency
+    end
+  end
+
   config.actions do
     dashboard                     # mandatory
     index                         # mandatory
