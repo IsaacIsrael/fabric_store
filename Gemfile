@@ -53,6 +53,8 @@ gem 'cancancan'
 
 gem 'sendgrid-ruby'
 
+gem 'money-rails', '~>1.12'
+
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
