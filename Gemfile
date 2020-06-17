@@ -55,6 +55,8 @@ gem 'sendgrid-ruby'
 
 gem 'money-rails', '~>1.12'
 
+gem 'kaminari'
+
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'

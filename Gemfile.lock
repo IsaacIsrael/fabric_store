@@ -356,6 +356,7 @@ DEPENDENCIES
   interactor (~> 3.0)
   interactor-rails
   jbuilder (~> 2.5)
+  kaminari
   listen (>= 3.0.5, < 3.2)
   money-rails (~> 1.12)
   pg (>= 0.18, < 2.0)
