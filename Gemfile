@@ -56,6 +56,7 @@ gem 'sendgrid-ruby'
 gem 'money-rails', '~>1.12'
 
 gem 'kaminari'
+gem 'bootstrap4-kaminari-views'
 
 group :development, :test do
   gem 'pry-byebug'
