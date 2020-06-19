@@ -1,0 +1,25 @@
+<div class="container">
+
+  <main class="row">
+    <%for product in @products%>
+      <div class="col-10 col-sm-3 mt-5 offset-1 offset-sm-0">
+        <div class="card card-product">
+            <img class="card-img-top" src="<%=product.thumbnail%>" alt="<%=product.name.capitalize%>">
+          <div class="card-body">
+            <p class="card-text">
+              <%= link_to product.name.capitalize, product_path(product , prev_page: params[:page]) ,class:"" %>
+              <strong class="text-primary"><%= humanized_money_with_symbol product.price %></strong>
+            </p>
+          </div>
+          <div class="card-footer">
+            <%= link_to "Buy on Supplier", product.url ,class:"btn btn-outline-success btn-block", target: "_blank"  %>
+
+          </div>
+        </div>
+      </div>
+    <%end%>
+  </main>
+  <footer class="mt-5">
+    <%= paginate @products , window: 2 %>
+  </footer>
+</div>

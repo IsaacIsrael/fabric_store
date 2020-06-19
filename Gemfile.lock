@@ -119,10 +119,6 @@ GEM
       tilt
     i18n (1.8.3)
       concurrent-ruby (~> 1.0)
-    interactor (3.1.2)
-    interactor-rails (2.2.1)
-      interactor (~> 3.0)
-      rails (>= 4.2)
     io-like (0.3.1)
     jbuilder (2.10.0)
       activesupport (>= 5.0.0)
@@ -144,6 +140,7 @@ GEM
       activerecord
       kaminari-core (= 1.2.1)
     kaminari-core (1.2.1)
+    lightgallery-rails (1.6.11)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -353,9 +350,9 @@ DEPENDENCIES
   dotenv-rails
   factory_bot_rails (~> 4.10.0s)
   font-awesome-sass
-  interactor (~> 3.0)
-  interactor-rails
   jbuilder (~> 2.5)
+  kaminari
+  lightgallery-rails
   listen (>= 3.0.5, < 3.2)
   money-rails (~> 1.12)
   pg (>= 0.18, < 2.0)

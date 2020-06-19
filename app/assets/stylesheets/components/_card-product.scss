@@ -1,0 +1,12 @@
+.card-product{
+  height: 100%;
+  .card-img-top{
+    object-fit: scale-down;
+    max-height: 170px;
+  }
+  .card-text{
+    a{
+      color: inherit;
+    }
+  }
+}

@@ -28,8 +28,12 @@ import "bootstrap";
 
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
+import initPhotoswipe  from '../components/init_photoswipe';
+import initTabGallary  from '../components/init_tab_gallary';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
+  initTabGallary();
+  initPhotoswipe();
 });
