@@ -5,8 +5,8 @@ import PhotoSwipeUI_Default from 'photoswipe/dist/photoswipe-ui-default'
 
 
 const openPhotoSwipe = function(index = 0) {
+  console.log('init openPhotoSwipe');
   const pswpElement = document.querySelectorAll('.pswp')[0];
-
   if (typeof(pswpElement) === 'undefined' && pswpElement === null) {
     return
   }
@@ -54,6 +54,7 @@ const openPhotoSwipe = function(index = 0) {
 };
 
 export default function(){
+  console.log('init PhotoSwipe');
   const btnPswp = document.getElementById('btn-pswp');
 
   if (typeof(btnPswp) !== 'undefined' && btnPswp !== null) {
