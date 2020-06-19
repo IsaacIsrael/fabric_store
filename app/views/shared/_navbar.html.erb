@@ -1,37 +1,21 @@
 <% unless @hide_menu %>
-<!-- <nav class="navbar justify-content-between  navbar-lewagon">
-    <div class="container">
-      <%= link_to "#", class: "navbar-brand" do %>
-        <%= image_tag "https://store.digifair.com/wp-content/uploads/Digifair.png" %>
-      <% end %>
-
-      <form class="form-inline">
-         <div class="input-group">
-          <input type="search" class="form-control" placeholder="Search for products..." aria-label="Search for products..." aria-describedby="search-addon">
-          <div class="input-group-append">
-            <button class="btn btn-success px-5" type="submit">Search</button>
-          </div>
-        </div>
-      </form>
-    </div>
-</nav> -->
 <nav class="navbar navbar-expand-lg  navbar-lewagon mb-5 py-sm-4">
   <div class="container">
-    <%= link_to "#", class: "navbar-brand" do %>
+    <%= link_to root_path, class: "navbar-brand" do %>
         <%= image_tag "https://store.digifair.com/wp-content/uploads/Digifair.png" %>
     <% end %>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <i class="fas fa-bars"></i>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">For supplier <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="https://www.digifair.com/supplier/#typeform" target="_blank">For supplier <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="http://onelink.to/zzsmvf">
-            Download The App
+          <a class="nav-link text-success" href="http://onelink.to/zzsmvf">
+            <i class="fas fa-arrow-down"></i> Download The App
           </a>
         </li>
       </ul>
@@ -39,7 +23,7 @@
         <div class="input-group">
           <input class="form-control" type="search" placeholder="Search" aria-label="Search">
           <div class="input-group-append">
-            <button class="btn btn-outline-success px-sm-4" type="submit">Search</button>
+            <button class="btn btn-outline-success px-sm-4" type="submit"> <i class="fas fa-search"></i> Search</button>
           </div>
         </div>
       </form>

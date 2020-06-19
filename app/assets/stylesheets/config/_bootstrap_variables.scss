@@ -6,20 +6,22 @@
 // General style
 $font-family-sans-serif:  $body-font;
 $headings-font-family:    $headers-font;
-$body-bg:                 $light-gray;
+$body-bg:                 #fff;
 $font-size-base: 1rem;
 
 // Colors
 $body-color: $gray;
-$primary:    $blue;
-$success:    $green;
-$info:       $yellow;
-$danger:     $red;
-$warning:    $orange;
-
+$theme-colors: (
+  "primary": #B13B8E,
+  "success": #19AE95
+);
 // Buttons & inputs' radius
 $border-radius:    2px;
 $border-radius-lg: 2px;
 $border-radius-sm: 2px;
 
 // Override other variables below!
+$enable-shadows: true;
+$enable-rounded: true;
+$enable-gradients: true;
+$enable-responsive-font-sizes: true;

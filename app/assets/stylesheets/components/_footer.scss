@@ -1,0 +1,31 @@
+.footer{
+  background-color:#E4E4E4;
+
+  .social{
+    li{
+      background-color: #63676C;
+      border-radius: 50%;
+
+      a{
+        color: #fff;
+        font-size: 1.3em;
+      }
+    }
+
+    li + li{
+      margin-left: 1.3em;
+    }
+  }
+
+  .logo{
+    object-fit: scale-down;
+    height: 100px;
+  }
+
+  .download{
+    img{
+      object-fit: scale-down;
+      width: 132px;
+    }
+  }
+}

@@ -44,8 +44,8 @@ gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'simple_form'
 
-gem 'interactor', '~> 3.0'
-gem 'interactor-rails'
+# gem 'interactor', '~> 3.0'
+# gem 'interactor-rails'
 
 gem 'rails_admin', '~> 2.0'
 gem 'rails_admin_import', '~> 2.1'
@@ -56,7 +56,7 @@ gem 'sendgrid-ruby'
 gem 'money-rails', '~>1.12'
 
 gem 'kaminari'
-gem 'bootstrap4-kaminari-views'
+
 
 group :development, :test do
   gem 'pry-byebug'
