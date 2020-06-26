@@ -32,12 +32,12 @@ RailsAdmin.config do |config|
   config.model 'Product' do
     include_all_fields
     field :price, :money
-    exclude_fields :price_cents, :price_currency
+    exclude_fields :price_cents
 
     edit do
       include_all_fields
       field :price, :decimal
-      exclude_fields :price_cents, :price_currency
+      exclude_fields :price_cents
     end
   end
 
